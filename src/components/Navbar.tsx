@@ -9,13 +9,17 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-800 text-white shadow-lg">
-      <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+    <nav className="fixed w-full bg-gray-800 text-white shadow-lg">
+      <div className="mx-auto px-4 md:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link to="/" className="text-xl font-bold">
-              Logo
+              <img 
+              src="/living faith church worldwide.png" 
+              alt="Living Faith Church World Wide Logo" 
+              className="w-[35px] h-[35px]"
+              />
             </Link>
           </div>
 
@@ -29,10 +33,10 @@ const Navbar = () => {
                 Home
               </Link>
               <Link
-                to="/contact"
+                to="/search-locations"
                 className="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-700"
               >
-                Contact
+                Search Locations
               </Link>
             </div>
           </div>
@@ -94,11 +98,11 @@ const Navbar = () => {
             Home
           </Link>
           <Link
-            to="/contact"
+            to="/search-locations"
             className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700"
             onClick={() => setIsOpen(false)}
           >
-            Contact
+            Search Locations
           </Link>
         </div>
       </div>

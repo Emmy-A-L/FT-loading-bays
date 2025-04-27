@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import Navbar from "./components/Navbar";
 import "./App.css";
+import Services from "./pages/Services";
 
 const App = () => {
   return (
@@ -9,13 +10,12 @@ const App = () => {
       <img
         src="/living faith church worldwide.png"
         alt="Living Faith Church World Wide Logo"
-        className="opacity-10 absolute left-[15%] md:left-[30%] lg:left-[40%] top-[20%] "
+        className="opacity-10 fixed center"
       />
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        {/* <Route path="/contact" element={<ContactPage />} />
-        <Route path="*" element={<NotFoundPage />} /> */}
+        <Route path="/search-locations" element={<Services />} />
       </Routes>
     </div>
   );
