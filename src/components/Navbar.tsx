@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed w-full bg-gray-800 text-white shadow-lg">
+    <nav className="fixed w-full z-1000 bg-gray-800 text-white shadow-lg">
       <div className="mx-auto px-4 md:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
@@ -28,13 +28,13 @@ const Navbar = () => {
             <div className="ml-10 flex items-baseline space-x-4">
               <Link
                 to="/"
-                className="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-700"
+                className="px-3 py-2 text-sm font-medium hover:border-b border-red-400 border-dotted duration-100 ease-in-out"
               >
                 Home
               </Link>
               <Link
                 to="/search-locations"
-                className="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-700"
+                className="px-3 py-2 text-sm font-medium hover:border-b border-red-400 border-dotted duration-100 ease-in-out"
               >
                 Search Locations
               </Link>
@@ -92,14 +92,14 @@ const Navbar = () => {
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
           <Link
             to="/"
-            className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700"
+            className="block px-3 py-2 text-base font-medium hover:border-b border-red-400 border-dotted"
             onClick={() => setIsOpen(false)}
           >
             Home
           </Link>
           <Link
             to="/search-locations"
-            className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700"
+            className="block px-3 py-2 text-base font-medium hover:border-b border-red-400 border-dotted"
             onClick={() => setIsOpen(false)}
           >
             Search Locations
