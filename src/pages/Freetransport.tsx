@@ -6,12 +6,7 @@ interface AreaData {
 }
 
 const areaData: AreaData = {
-  "Ige Daramola": [
-    "123 Main St, Ige Daramola",
-    "456 Side St, Ige Daramola",
-    "789 Back St, Ige Daramola",
-  ],
-  Iyesi: ["123 Elm St, Iyesi", "456 Pine St, Iyesi", "789 Maple St, Iyesi"],
+  Iyesi: ["Baba Monday Junction, Egan Road"],
   Obasanjo: [
     "123 Oak St, Obasanjo",
     "456 Cedar St, Obasanjo",
