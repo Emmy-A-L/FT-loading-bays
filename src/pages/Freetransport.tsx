@@ -10,6 +10,9 @@ const Freetransport = () => {
         </div>
         <AreaNames />
       </div>
+      <div>
+        
+      </div>
     </div>
   )
 }

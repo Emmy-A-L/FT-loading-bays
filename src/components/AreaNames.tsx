@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const AreaNames = () => {
   const areas = [
@@ -115,7 +116,12 @@ const AreaNames = () => {
         {filteredAreas.length > 0 ? (
           filteredAreas.map((area) => (
             <div key={area.id} className="py-2 border-b border-gray-400/50">
-              {area.AreaName.toUpperCase()}
+              <Link
+                to={`/area/${area.AreaName}`}
+                className="text-blue-500 hover:underline"
+              >
+                {area.AreaName.toUpperCase()}
+              </Link>
             </div>
           ))
         ) : (

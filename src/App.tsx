@@ -11,6 +11,7 @@ import ChopLocations from "./pages/ChopLocations";
 import CommunityChurches from "./pages/CommunityChurches";
 import Freetransport from "./pages/Freetransport";
 import BrtLoadingBays from "./pages/BrtLoadingBays";
+import AreaPage from "./pages/AreaPage";
 
 const App = () => {
   const [loading, setLoading] = useState(false);
@@ -66,6 +67,7 @@ const App = () => {
           path="/search-locations/brt-loading-bays"
           element={<BrtLoadingBays />}
         />
+        <Route path="/area/:areaName" element={<AreaPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </div>
