@@ -12,6 +12,7 @@ import CommunityChurches from "./pages/CommunityChurches";
 import Freetransport from "./pages/Freetransport";
 import BrtLoadingBays from "./pages/BrtLoadingBays";
 import AreaPage from "./pages/AreaPage";
+import { Toaster } from "react-hot-toast";
 
 const App = () => {
   const [loading, setLoading] = useState(false);
@@ -31,6 +32,15 @@ const App = () => {
 
   return (
     <div className="h-screen bg-gray-800 text-white">
+      <Toaster 
+        position="top-right"
+        toastOptions={{
+          style: {
+            background: "#333",
+            color: "#fff",
+          },
+        }}
+      />
       {loading && (
         <div className="fixed inset-0 flex items-center justify-center bg-gray-900/75 z-50">
           <div className="loader">
