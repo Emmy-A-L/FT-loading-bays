@@ -160,6 +160,7 @@ export const areas: Areas = [
       },
     ],
   }, //area 4
+
   {
     id: 5,
     areaName: "Raji-Oba",
@@ -205,6 +206,7 @@ export const areas: Areas = [
       },
     ],
   }, //area 5
+
   {
     id: 6,
     areaName: "Mosan Ipaja",
@@ -212,8 +214,25 @@ export const areas: Areas = [
     midweekLocations: [],
     communityChurchLocations: [],
     brtLocations: [],
-    freeTransportLocations: [],
-  },
+    freeTransportLocations: [
+      {
+        id: 1,
+        areaName: "Mosan Ipaja",
+        location: "DH 4 OPPOSITE ABIDAP HOTEL BY OPC JUNCTION",
+      },
+      {
+        id: 2,
+        areaName: "Mosan Ipaja",
+        location: "FEDERAL BUS STOP SHAGARI ESTATE BY ECOBANK",
+      },
+      {
+        id: 3,
+        areaName: "Mosan Ipaja",
+        location: "MOSAN ROUNDABOUT OPPOSITE DEEPER LIFE CHURCH",
+      },
+    ],
+  }, // area 6
+
   {
     id: 7,
     areaName: "Gowon Estate",
@@ -221,8 +240,30 @@ export const areas: Areas = [
     midweekLocations: [],
     communityChurchLocations: [],
     brtLocations: [],
-    freeTransportLocations: [],
-  },
+    freeTransportLocations: [
+      {
+        id: 1,
+        areaName: "Gowon Estate",
+        location: "FAITH ACEDEMY, GOWON ESTATE",
+      },
+      {
+        id: 2,
+        areaName: "Gowon Estate",
+        location: "JENDOL JUNCTION BOYS TOWN IPAJA",
+      },
+      {
+        id: 3,
+        areaName: "Gowon Estate",
+        location: "FIRST ROYAL FILLING STATION, ABESAN ESTATE",
+      },
+      {
+        id: 4,
+        areaName: "Gowon Estate",
+        location: "31 ROAD ROUNDABOUT, GOWON ESTATE",
+      },
+    ],
+  }, // area 7
+
   {
     id: 8,
     areaName: "Baruwa",
@@ -230,8 +271,25 @@ export const areas: Areas = [
     midweekLocations: [],
     communityChurchLocations: [],
     brtLocations: [],
-    freeTransportLocations: [],
-  },
+    freeTransportLocations: [
+      {
+        id: 1,
+        areaName: "Baruwa",
+        location: "5 ST MICHAEL STREET, BARUWA",
+      },
+      {
+        id: 2,
+        areaName: "Baruwa",
+        location: "P & T",
+      },
+      {
+        id: 3,
+        areaName: "Baruwa",
+        location: "TWO STOREY",
+      },
+    ],
+  }, // area 8
+
   {
     id: 9,
     areaName: "Aboru",
@@ -239,8 +297,25 @@ export const areas: Areas = [
     midweekLocations: [],
     communityChurchLocations: [],
     brtLocations: [],
-    freeTransportLocations: [],
-  },
+    freeTransportLocations: [
+      {
+        id: 1,
+        areaName: "Aboru",
+        location: "PLEASURE BUS STOP ILE-EPO OKEODO",
+      },
+      {
+        id: 2,
+        areaName: "Aboru",
+        location: "BABA-IJESA BUS STOP BY AND MOBIL FILLING STATION ABORU",
+      },
+      {
+        id: 3,
+        areaName: "Aboru",
+        location: "AKIN-OLA BUS STOP ABORU",
+      },
+    ],
+  }, // area 9
+
   {
     id: 10,
     areaName: "Iyana Isashi",
@@ -248,8 +323,25 @@ export const areas: Areas = [
     midweekLocations: [],
     communityChurchLocations: [],
     brtLocations: [],
-    freeTransportLocations: [],
-  },
+    freeTransportLocations: [
+        {
+            id: 1,
+            areaName: "Iyana Isashi",
+            location: "MARKET BUS STOP IYANAISASHI",
+          },
+          {
+            id: 2,
+            areaName: "Iyana Isashi",
+            location: "CELE BUS STOP",
+          },
+          {
+            id: 3,
+            areaName: "Iyana Isashi",
+            location: "OKADA PARK ITEKUN",
+          }
+    ],
+  },// area 10
+  
   {
     id: 11,
     areaName: "Wilky",
@@ -257,8 +349,30 @@ export const areas: Areas = [
     midweekLocations: [],
     communityChurchLocations: [],
     brtLocations: [],
-    freeTransportLocations: [],
-  },
+    freeTransportLocations: [
+        {
+            id: 1,
+            areaName: "Wilky",
+            location: "IGBO ELERIN BUS-STOP",
+          },
+          {
+            id: 2,
+            areaName: "Wilky",
+            location: "CEMENT BUS-STOP, OKE-ODAN",
+          },
+          {
+            id: 3,
+            areaName: "Wilky",
+            location: "OLOPA BUS-STOP, ERA",
+          },
+          {
+            id: 3,
+            areaName: "Wilky",
+            location: "TRANSFORMERS BUS-STOP OKE-AGBO, ILOGBO",
+          }
+    ],
+  }, // area 11
+  
   {
     id: 12,
     areaName: "Petro",
@@ -266,8 +380,21 @@ export const areas: Areas = [
     midweekLocations: [],
     communityChurchLocations: [],
     brtLocations: [],
-    freeTransportLocations: [],
-  },
+    freeTransportLocations: [
+        {
+            id: 1,
+            areaName: "Petro",
+            location: "3/5 PETRO CLOSE BY IYANA ERA B-STOP",
+          },
+          {
+            id: 2,
+            areaName: "Petro",
+            location: "1 OMOTAYO STR, ALASIA B-STOP",
+          }
+          
+    ],
+  },// area 12
+
   {
     id: 13,
     areaName: "Ijaiye",
@@ -275,8 +402,25 @@ export const areas: Areas = [
     midweekLocations: [],
     communityChurchLocations: [],
     brtLocations: [],
-    freeTransportLocations: [],
-  },
+    freeTransportLocations: [
+        {
+            id: 1,
+            areaName: "Ijaiye",
+            location: "3/5 AKINSOLA STREET AJALA IJAIYE",
+          },
+          {
+            id: 2,
+            areaName: "Ijaiye",
+            location: " 104 AGBADO STATION RD, LAMBE BUS STOP, IJAIYE",
+          },
+          {
+            id: 3,
+            areaName: "Ijaiye",
+            location: " RAB OIL BY SANTOS JUNCTION, AGBE ROAD, ABULE EGBA",
+          }
+    ],
+  },// area 13
+
   {
     id: 14,
     areaName: "Ogba",
@@ -285,7 +429,8 @@ export const areas: Areas = [
     communityChurchLocations: [],
     brtLocations: [],
     freeTransportLocations: [],
-  },
+  },// area 14
+
   {
     id: 15,
     areaName: "Yaba",
@@ -293,8 +438,30 @@ export const areas: Areas = [
     midweekLocations: [],
     communityChurchLocations: [],
     brtLocations: [],
-    freeTransportLocations: [],
-  },
+    freeTransportLocations: [
+        {
+            id: 1,
+            areaName: "Yaba",
+            location: "44 MONTGOMERY ROAD YABA",
+          },
+          {
+            id: 2,
+            areaName: "Yaba",
+            location: "NNPC BUS STOP, IWAYA ROAD",
+          },
+          {
+            id: 3,
+            areaName: "Yaba",
+            location: "UBA BANK, OYINGBO",
+          },
+          {
+            id: 4,
+            areaName: "Yaba",
+            location: "1 OHEKENU STREET, FADEYI (BEHIND FIDELITY BANK)",
+          }
+    ],
+  },// area 15
+
   {
     id: 16,
     areaName: "Mushin",
@@ -302,8 +469,35 @@ export const areas: Areas = [
     midweekLocations: [],
     communityChurchLocations: [],
     brtLocations: [],
-    freeTransportLocations: [],
-  },
+    freeTransportLocations: [
+        {
+            id: 1,
+            areaName: "Mushin",
+            location: "OLORUNSOGO BUS-STOP / ACCESS BANK MUSHIN BUS-STOP",
+          },
+          {
+            id: 2,
+            areaName: "Mushin",
+            location: "AWOYOKU JUNCTION/NO 7 BODE THOMAS STREET ONIPAN",
+          },
+          {
+            id: 3,
+            areaName: "Mushin",
+            location: "MAY HOSPITAL. SADIKU ILASAMAJA, TAXI PARK, SUBERU",
+          },
+          {
+            id: 4,
+            areaName: "Mushin",
+            location: "MOBIL FILLING STATION, PALM AVENUE /  P AND P SCHOOLS, LAYI OYEKANMI ",
+          },
+          {
+            id: 5,
+            areaName: "Mushin",
+            location: "UNITY BANK, IDIORO",
+          }
+    ],
+  },// area 16
+
   {
     id: 17,
     areaName: "Amuwo",
@@ -311,8 +505,41 @@ export const areas: Areas = [
     midweekLocations: [],
     communityChurchLocations: [],
     brtLocations: [],
-    freeTransportLocations: [],
-  },
+    freeTransportLocations: [
+        {
+            id: 1,
+            areaName: "Amuwo",
+            location: "PLOT 2, INDUSTRIAL LAYOUT, COVENANT ROAD, AMUWO",
+          },
+          {
+            id: 2,
+            areaName: "Amuwo",
+            location: "2, EMMANUEL OFFOR STR, UKWACHINAKA JUNCTION, GREEN FIELD ESTATE, AMUWO",
+          },
+          {
+            id: 3,
+            areaName: "Amuwo",
+            location: "OJO MILITARY BARRACKS, OJO",
+          }
+          ,
+          {
+            id: 4,
+            areaName: "Amuwo",
+            location: "TEDI ROUNDABOUT, OJO LAGOS",
+          },
+          {
+            id: 5,
+            areaName: "Amuwo",
+            location: "ARIYO JUNCTION, IRA OJO, LAGOS",
+          },
+          {
+            id: 6,
+            areaName: "Amuwo",
+            location: "OPPOSITE OJO TRANSFORMER, OJO, LAGOS",
+          }
+    ],
+  },// area 17
+
   {
     id: 18,
     areaName: "Ayobo",
@@ -320,8 +547,35 @@ export const areas: Areas = [
     midweekLocations: [],
     communityChurchLocations: [],
     brtLocations: [],
-    freeTransportLocations: [],
-  },
+    freeTransportLocations: [
+          {
+            id: 1,
+            areaName: "Ayobo",
+            location: "1. PARKLANE AVENUE, AYOBO",
+          },
+          {
+            id: 2,
+            areaName: "Ayobo",
+            location: "ABBOT SCHOOL JUNCTION, AYOBO",
+          },
+          {
+            id: 3,
+            areaName: "Ayobo",
+            location: "27 WULUMOTU STREET, BADA",
+          },
+          {
+            id: 4,
+            areaName: "Ayobo",
+            location: "2 ADENIJI ABOLADE STREET, AYOBO",
+          },
+          {
+            id: 5,
+            areaName: "Ayobo",
+            location: "1, BETHEL STREET, AYOBO",
+          }
+        ],
+  },// area 18
+
   {
     id: 19,
     areaName: "Olayemi",
@@ -329,8 +583,25 @@ export const areas: Areas = [
     midweekLocations: [],
     communityChurchLocations: [],
     brtLocations: [],
-    freeTransportLocations: [],
-  },
+    freeTransportLocations: [
+      {
+        id: 1,
+        areaName: "Olayemi",
+        location: "10, MAJOR BUS-STOP, ALAJA",
+      },
+      {
+        id: 2,
+        areaName: "Olayemi",
+        location: "50 IGESU RD, OLAYEMI BUS-STOP",
+      },
+      {
+        id: 3,
+        areaName: "Olayemi",
+        location: "6, ORELOPE STREET, SABO",
+      },
+    ],
+  },// area 19
+
   {
     id: 20,
     areaName: "Candos",
@@ -338,8 +609,40 @@ export const areas: Areas = [
     midweekLocations: [],
     communityChurchLocations: [],
     brtLocations: [],
-    freeTransportLocations: [],
-  },
+    freeTransportLocations: [
+      {
+        id: 1,
+        areaName: "Candos",
+        location: "24, CANDOS RD, OFF ASHIPA RD, AMULE-AYOBO, LAGOS",
+      },
+      {
+        id: 2,
+        areaName: "Candos",
+        location: "10, CHURCH STREET, IDERA ESTATE, AMULE-AYOBO, LAGOS",
+      },
+      {
+        id: 3,
+        areaName: "Candos",
+        location: "MAKINDE BUS-STOP, ASHIPA ROAD, AYOBO, LAGOS",
+      },
+      {
+        id: 4,
+        areaName: "Candos",
+        location: "16, SHOKANLU STREET, MERCYLAND ESTATE, AMULE-AYOBO, LAGOS",
+      },
+      {
+        id: 5,
+        areaName: "Candos",
+        location: "9, ALHAJA WOSILAT STREET, IPAJA",
+      },
+      {
+        id: 6,
+        areaName: "Candos",
+        location: "K.I.D BUS-STOP, ASHIPA ROAD, AMULE-AYOBO, LAGOS",
+      },
+    ],
+  },// area 20
+
   {
     id: 21,
     areaName: "Majiyagbe",
@@ -347,8 +650,45 @@ export const areas: Areas = [
     midweekLocations: [],
     communityChurchLocations: [],
     brtLocations: [],
-    freeTransportLocations: [],
-  },
+    freeTransportLocations: [
+      {
+        id: 1,
+        areaName: "Majiyagbe",
+        location: "42, WOLE EDUN STREET, MAJIYAGBE",
+      },
+      {
+        id: 2,
+        areaName: "Majiyagbe",
+        location: "ALAO BLOCK INDUSTRY, MAJIYAGBE",
+      },
+      {
+        id: 3,
+        areaName: "Majiyagbe",
+        location: "JOEKEM PHARMACY",
+      },
+      {
+        id: 4,
+        areaName: "Majiyagbe",
+        location: "AWORI JUNCTION, ANGLICAN GRAMMAR SCHOOL",
+      },
+      {
+        id: 5,
+        areaName: "Majiyagbe",
+        location: "ZION BUS STOP, AINA OBEB-NBE ROAD, IPAJA",
+      },
+      {
+        id: 6,
+        areaName: "Majiyagbe",
+        location: "22, FAGBEMI STREET, MAJIYAGBE",
+      },
+      {
+        id: 7,
+        areaName: "Majiyagbe",
+        location: "26 IFELODUN STREET, BADEK JUNCTION",
+      }
+    ],
+  },// area 21
+
   {
     id: 22,
     areaName: "Lafenwa",
@@ -357,7 +697,8 @@ export const areas: Areas = [
     communityChurchLocations: [],
     brtLocations: [],
     freeTransportLocations: [],
-  },
+  }, // area 22
+
   {
     id: 23,
     areaName: "Perfect Peace",
@@ -365,8 +706,40 @@ export const areas: Areas = [
     midweekLocations: [],
     communityChurchLocations: [],
     brtLocations: [],
-    freeTransportLocations: [],
-  },
+    freeTransportLocations: [
+          {
+            id: 1,
+            areaName: "Perfect Peace",
+            location: "1/4 PERFECT PEACE AVENUE, OLUGBODE",
+          },
+          {
+            id: 2,
+            areaName: "Perfect Peace",
+            location: "NAVY HOUSE, TIPPER GARAGE, ODAM, LAFENWA",
+          },
+          {
+            id: 3,
+            areaName: "Perfect Peace",
+            location: "COVENANT BLOCK INDUSTRY, ADELEYE, LAFENWA ROAD, OTA",
+          },
+          {
+            id: 4,
+            areaName: "Perfect Peace",
+            location: "20, OLALEKAN CLOSE, LAFENWA",
+          },
+          {
+            id: 5,
+            areaName: "Perfect Peace",
+            location: "23, YUSUF OLA, APARADIJA, LAFENWA",
+          },
+          {
+            id: 6,
+            areaName: "Perfect Peace",
+            location: "9, ADESHINA ILEIFE, APARADIJA, LAFENWA",
+          }
+    ],
+  },// area 23
+
   {
     id: 24,
     areaName: "Anthony",
@@ -374,8 +747,25 @@ export const areas: Areas = [
     midweekLocations: [],
     communityChurchLocations: [],
     brtLocations: [],
-    freeTransportLocations: [],
-  },
+    freeTransportLocations: [
+      {
+            id: 1,
+            areaName: "Anthony",
+            location: "10, ADEBAYO MOKUOLU STREET, ANTHONY",
+          },
+          {
+            id: 2,
+            areaName: "Anthony",
+            location: "AGWANDOKI IKEJA MILITARY CANTONMENT",
+          },
+          {
+            id: 3,
+            areaName: "Anthony",
+            location: "OKI-LANE MENDE, MARYLAND",
+          }
+    ],
+  },// area 24
+
   {
     id: 25,
     areaName: "Akute",
@@ -383,8 +773,29 @@ export const areas: Areas = [
     midweekLocations: [],
     communityChurchLocations: [],
     brtLocations: [],
-    freeTransportLocations: [],
-  },
+    freeTransportLocations: [
+          {
+            id: 1,
+            areaName: "Akute",
+            location: "2, TUNDE SEBANJO CRESCENT, OFF FABOLUDE BUS-STOP",
+          },
+          {
+            id: 2,
+            areaName: "Akute",
+            location: "11, AKINTOYINBO STREET, RIVER BANK, AKUTE ODO",
+          },
+          {
+            id: 3,
+            areaName: "Akute",
+            location: "3, JESUS CLOSE, OFF TEN TEN BUS-STOP OLAMBE",
+          },
+          {
+            id: 4,
+            areaName: "Akute",
+            location: "49, GASLINE ROAD, COCOA HOUSE, MATOGUN",
+          }
+    ],
+  },// area 25
   {
     id: 26,
     areaName: "Denro",
