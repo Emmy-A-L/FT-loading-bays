@@ -13,7 +13,7 @@ const AreaPage = () => {
     | "brtLocations"
     | "freeTransportLocations";
 
-  const selectedArea = areas.find((area) => area.areaName === areaName);
+  const selectedArea = areas.find((area) => area.areaName === areaName,);
   const locations = selectedArea ? selectedArea[locationType] || [] : [];
 
   const getTitleByType = () => {
@@ -35,7 +35,7 @@ const AreaPage = () => {
   toast(
     `🛑 Google maps might not give an exact location of the address you are looking for!`,
     {
-      duration: 10000,
+      duration: 2000,
     }
   );
 
@@ -60,9 +60,7 @@ const AreaPage = () => {
                 <li key={index} className="bg-gray-700/50 p-4 rounded-lg">
                   <p className="mb-2">{location.location}</p>
                   <a
-                    href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-                      location.location
-                    )}`}
+                    href={`${}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-400 hover:text-blue-300 text-sm"
