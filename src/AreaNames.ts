@@ -5,26 +5,31 @@ type Areas = {
     id: number;
     areaName: string;
     location: string;
+    mapLink: string;
   }[];
   midweekLocations: {
     id: number;
     areaName: string;
     location: string;
+    mapLink: string;
   }[];
   brtLocations: {
     id: number;
     areaName: string;
     location: string;
+    mapLink: string;
   }[];
   freeTransportLocations: {
     id: number;
     areaName: string;
     location: string;
+    mapLink: string;
   }[];
   communityChurchLocations: {
     id: number;
     areaName: string;
     location: string;
+    mapLink: string;
   }[];
 }[];
 
@@ -1024,10 +1029,101 @@ export const areas: Areas = [
   {
     id: 51,
     areaName: "Agbara",
-    chopLocations: [],
-    midweekLocations: [],
-    communityChurchLocations: [],
-    brtLocations: [],
+    chopLocations: [
+          {
+            id: 1,
+            areaName: "Agbara",
+            location: "Plot 5, Area 8 OPIC Estate",
+            mapLink: "https://maps.app.goo.gl/UpMxZ1kMWkq3srU57",
+          },
+          {
+            id: 2,
+            areaName: "Agbara",
+            location: "Idanyin Community Church, Idanyin",
+            mapLink: "https://maps.app.goo.gl/xUiuC9rHp3dhcfUe6"
+          },
+          {
+            id: 3,
+            areaName: "Agbara",
+            location: "New Dawn Estate, Igere, OPIC Estate",
+            mapLink: "https://maps.app.goo.gl/XML2a8LZJ5vrZLie9"
+          }
+    ],
+    midweekLocations: [
+          {
+            id: 1,
+            areaName: "Agbara",
+            location: "Plot 5, Area 8 OPIC Estate",
+            mapLink: "https://maps.app.goo.gl/UpMxZ1kMWkq3srU57",
+          },
+      {
+            id: 2,
+            areaName: "Agbara",
+            location: "Ihunsa Community, Ihunsa",
+            mapLink: "https://maps.app.goo.gl/2nzKLgYNQUsfqLxh7"
+          },
+      {
+            id: 3,
+            areaName: "Agbara",
+            location: "First Seeds School, Ago-Eto, Agbara",
+            mapLink: "https://maps.app.goo.gl/6moVehveEGUrTNrx5"
+          },
+      {
+            id: 4,
+            areaName: "Agbara",
+            location: "No 10, Opobo Crescent, Agbara Estate",
+          },
+      {
+            id: 5,
+            areaName: "Agbara",
+            location: "Step Bridge Schools, Ilutuntun, Area 3 OPIC Estate",
+            mapLink: "https://maps.app.goo.gl/v14PGCR9XPzWswwP8"
+          },
+      {
+            id: 6,
+            areaName: "Agbara",
+            location: "Eagles Wings School, Odan, Agbara",
+            mapLink: "https://maps.app.goo.gl/XAswkr2us7btk9JC7"
+          },
+      {
+            id: 7,
+            areaName: "Agbara",
+            location: "Community hall, Golden city Estate, Petedo",
+            mapLink: "https://maps.app.goo.gl/6r9W8yf43APGDyyU6"
+          }
+          {
+            id: 8,
+            areaName: "Agbara",
+            location: "New Dawn Estate, Igere, OPIC Estate",
+            mapLink: "https://maps.app.goo.gl/XML2a8LZJ5vrZLie9"
+          },
+          {
+            id: 9,
+            areaName: "Agbara",
+            location: "Ambassador Street, CBD OPIC Estate",
+            mapLink: "https://maps.app.goo.gl/Wdn2BrMdvUinCJ5q8"
+          },
+          {
+            id: 10,
+            areaName: "Agbara",
+            location: "Idanyin Community Church, Idanyin",
+            mapLink: "https://maps.app.goo.gl/xUiuC9rHp3dhcfUe6"
+          },
+    ],
+    communityChurchLocations: [
+      {
+            id: 1,
+            areaName: "Agbara",
+            location: "Idanyin Community Church, Idanyin",
+            mapLink: "https://maps.app.goo.gl/xUiuC9rHp3dhcfUe6"
+          }
+    ],
+    brtLocations: [{
+            id: 1,
+            areaName: "Agbara",
+            location: "Estate Burger, Agbara bus stop",
+            mapLink: "https://maps.app.goo.gl/fSAQnUzPLYfxMwc89",
+          }],
     freeTransportLocations: [],
   },
   {
