@@ -5,31 +5,31 @@ type Areas = {
     id: number;
     areaName: string;
     location: string;
-    mapLink: string;
+    mapLink?: string;
   }[];
   midweekLocations: {
     id: number;
     areaName: string;
     location: string;
-    mapLink: string;
+    mapLink?: string;
   }[];
   brtLocations: {
     id: number;
     areaName: string;
     location: string;
-    mapLink: string;
+    mapLink?: string;
   }[];
   freeTransportLocations: {
     id: number;
     areaName: string;
     location: string;
-    mapLink: string;
+    mapLink?: string;
   }[];
   communityChurchLocations: {
     id: number;
     areaName: string;
     location: string;
-    mapLink: string;
+    mapLink?: string;
   }[];
 }[];
 
