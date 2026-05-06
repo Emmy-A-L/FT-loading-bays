@@ -1090,7 +1090,7 @@ export const areas: Areas = [
             areaName: "Agbara",
             location: "Community hall, Golden city Estate, Petedo",
             mapLink: "https://maps.app.goo.gl/6r9W8yf43APGDyyU6"
-          }
+          },
           {
             id: 8,
             areaName: "Agbara",
@@ -1116,7 +1116,7 @@ export const areas: Areas = [
             areaName: "Agbara",
             location: "Idanyin Community Church, Idanyin",
             mapLink: "https://maps.app.goo.gl/xUiuC9rHp3dhcfUe6"
-          }
+          },
     ],
     brtLocations: [{
             id: 1,
